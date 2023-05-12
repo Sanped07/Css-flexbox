@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="pedro h amaral">
+    <link rel="shortcut icon" href="https://cdn-1.webcatalog.io/catalog/gamedistribution-tricky-shapes/gamedistribution-tricky-shapes-icon-filled-256.png?v=1677618597049" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Propriedades Css do FlexBox</title>
+</head>
+<body>
+<h1> Propriedades Css do flexbox</h1>
+<h2>Para que serve?</h2>
+<p> Antes de de mostrar os modelos de flexbox existentes, devemos saber qual é a utilidade dessa propriedade Css
+    no nosso Código.
+</p>
+<p>O Flexbox é um conceito do CSS3 que visa organizar os elementos de uma página HTML dentro de seus containers de forma dinâmica. Ou seja, independente das suas dimensões eles sempre manterão um layout flexível dentro do seu elemento pai, reorganizando-se e acordo com a necessidade.</p>
+    
+<h2> Vamos as Propriedades!</h2>
+<p>propriedades:</p>
+<ul>
+    <li>Display: Flex</li>
+    <li>justify-content: (cada possível valor)</li>
+    <li>flex-direction: (cada possível valor)</li>
+    <li>align-itens: (cada possível valor)</li>
+    <li>flex-wrap: (cada possível valor)</li>
+    <li>flex-flow: (shorthand para flex-direction + flex-wrap)</li>
+    <li>align-content: (cada possível valor)</li>    
+</ul>
+
+<section class="property-section" id="display-flex">
+    
+    <h2 class="property-title">display: flex</h2>
+    
+    <p class="property-explanation">
+      Essa é a primeira propriedade que precisa ser declarada com o valor "flex" para que a flexbox funcione.
+    </p>
+    
+    <div class="parent-box">
+      <p>Parent-box  (flex container)</p>
+      
+      <div class="child-box">
+        <p>1</p>
+        <p>child-box  (flex item)</p>
+      </div>
+      
+      <div class="child-box">
+        <p>2</p>
+        <p>child-box (flex item)</p>
+      </div>
+      
+      <div class="child-box">
+        <p>3</p>
+        <p>child-box  (flex item)</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="property-section" id="justify-content">
+    <h2 class="property-title">justify-content:</h2>
+    
+    <section class="value-section" id="jc-center">
+      <h3 class="value-title">center</h3>
+      
+      <p class="property-explanation">
+        Esta propriedade é utilizada para justificar o conteúdo ao centro.
+      </p>
+      
+      <div class="parent-box">
+        <p>Parent-box (flex container)</p>
+        
+        <div class="child-box">
+          <p>1</p>
+          <p>
+            child-box (flex item)</p>
+        </div>
+        
+        <div class="child-box">
+          <p>2</p>
+          <p>child-box  (flex item)</p>
+        </div>
+        
+        <div class="child-box">
+          <p>3</p>
+          <p>child-box  (flex item)</p>
+        </div>
+  
+      </div>
+
+    </section> <!-- Fecha a seção de valor -->
+
+    <section class="value-section" id="jc-flex-start">
+      <h3 class="value-title">flex-start</h3>
+      
+      <p class="property-explanation">
+        Esta propriedade é utilizada para justificar o conteúdo à esquerda.
+      </p>
+      
+      <div class="parent-box">
+        <p>Parent-box  (flex container)</p>
+        
+        <div class="child-box">
+          <p>1</p>
+          <p>child-box (flex item)</p>
+        </div>
+        
+        <div class="child-box">
+          <p>2</p>
+          <p>child-box  (flex item)</p>
+        </div>
+        
+        <div class="child-box">
+          <p>3</p>
+          <p>child-box (flex item)</p>
+        </div>
+  
+      </div>
+
+    </section> <!-- Fecha a seção de valor -->
+
+    <section class="value-section" id="jc-space-around">
+      <h3 class="value-title">space-around</h3>
+      
+      <p class="property-explanation">
+        Esta propriedade é utilizada para justificar o conteúdo com espaço ao redor.
+      </p>
+      
+      <div class="parent-box">
+        <p>Parent-box (flex container)</p>
+        
+        <div class="child-box">
+          <p>1</p>
+          <p>child-box (flex item)</p>
+        </div>
+        
+        <div class="child-box">
+          <p>2</p>
+          <p>child-box (flex item)</p>
+        </div>
+        
+        <div class="child-box">
+          <p>3</p>
+          <p>child-box (flex item)</p>
+        </div>
+  
+      </div>
+
+    </section> <!-- Fecha a seção de valor -->
+
+    <section class="value-section" id="jc-space-between">
+      <h3 class="value-title">space-between</h3>
+      
+      <p class="property-explanation">
+        Esta propriedade é utilizada para justificar o conteúdo com espaço entre os elementos-filho.
+      </p>
+      
+      <div class="parent-box">
+        <p>Parent-box (flex container)</p>
+        
+        <div class="child-box">
+          <p>1</p>
+          <p>child-box  (flex item)</p>
+        </div>
+        
+        <div class="child-box">
+          <p>2</p>
+          <p>child-box  (flex item)</p>
+        </div>
+        
+        <div class="child-box">
+          <p>3</p>
+          <p>child-box  (flex item)</p>
+        </div>
+  
+      </div>
+
+    </section> <!-- Fecha a seção de valor -->
+
+  </section> <!-- Fecha a seção de propriedade -->
+</body>
+</html>
